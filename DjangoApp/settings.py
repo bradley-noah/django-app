@@ -33,6 +33,12 @@ ALLOWED_HOSTS = ['45.79.176.160']
 # Application definition
 
 INSTALLED_APPS = [
+#
+    'blog.apps.BlogConfig',
+    'users.apps.UsersConfig',
+    'crispy_forms',
+    'crispy_bootstrap4',
+#
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
