@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 #    'crispy_bootstrap4',
 #
     'blog.apps.BlogConfig',
+    'users.apps.UsersConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
