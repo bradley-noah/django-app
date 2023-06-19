@@ -22,7 +22,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-cxx&o9683$v1#h72dy99hz&8@6g==bx+nk0w_a&)i9q99&&22='
+#'django-insecure-cxx&o9683$v1#h72dy99hz&8@6g==bx+nk0w_a&)i9q99&&22='
+SECRET_KEY = '&ia_h0st@jyt7w#r^=fmh$%fpbrli$ti&u%mg8s3_1)+vo+^ti'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -39,7 +40,7 @@ INSTALLED_APPS = [
 #    'crispy_forms',
 #    'crispy_bootstrap4',
 #
-    'blog.apps.BlogConfig',
+#    'blog.apps.BlogConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -118,7 +119,7 @@ TIME_ZONE = 'UTC'
 
 USE_I18N = True
 
-#USE_L10N = True
+USE_L10N = True
 
 USE_TZ = True
 
