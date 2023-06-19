@@ -1,0 +1,6 @@
+asgiref @ file:///Users/cbousseau/work/recipes/ci_py311/asgiref_1677957028708/work
+crispy-bootstrap4==2022.1
+Django @ file:///Users/cbousseau/work/recipes/ci_py311/django_1677970851911/work
+django-crispy-forms==2.0
+Pillow==9.5.0
+sqlparse @ file:///Users/cbousseau/work/recipes/ci_py311/sqlparse_1677962074223/work
